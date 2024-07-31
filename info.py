@@ -56,7 +56,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # Premium And Referal Settings
-PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
+PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
@@ -147,7 +147,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
