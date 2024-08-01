@@ -294,7 +294,7 @@ async def start(client, message):
                         InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
                         InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizz_yt")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -488,7 +488,7 @@ async def start(client, message):
                         InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
                         InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizz_yt")
                     ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -549,10 +549,10 @@ async def start(client, message):
                     return
             if STREAM_MODE == True:
                 button = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/moviesbizzchat'),
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/moviesbizz_yt")
                 ],[
                     InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                 ]]
@@ -633,7 +633,7 @@ async def start(client, message):
                 InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
                 InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
         ],[
-                InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
+                InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizz_yt")
         ]]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
