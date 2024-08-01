@@ -25,12 +25,15 @@ async def start(client, message):
     await message.react(emoji="🔥", big=True)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('❣️ Uꜱᴇ Gʀᴏᴜᴘ Tᴏ Gᴇᴛ Mᴏᴠɪᴇꜱ ❣️', url='https://t.me/MoviesBizzChat')
         ],[
-            InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/vj_bot_disscussion"),
-            InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/vj_bots')
+            InlineKeyboardButton('© Oᴡɴᴇʀ', url='https://t.me/MoviesBizz_yt'),
+            InlineKeyboardButton('🦋Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
         ],[
-            InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+            InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+        ],[
+            InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url='https://t.me/+yrxag_cnhaw0YmM1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
