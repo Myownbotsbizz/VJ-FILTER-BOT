@@ -288,10 +288,10 @@ async def start(client, message):
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
+                        InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/KingVJ01")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -482,11 +482,11 @@ async def start(client, message):
                 ]]
             else:
                 button = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
-                ]]
+                        InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
+                        InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
+                    ],[
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
+                    ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
@@ -555,10 +555,10 @@ async def start(client, message):
                 ]]
             else:
                 button = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                    InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
+                    InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
                 ],[
-                    InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
                 ]]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -627,10 +627,10 @@ async def start(client, message):
         ]]
     else:
         button = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/MoviesBizzChat'),
+                InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
         ],[
-            InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/KingVJ01")
+                InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/moviesbizzz_yt")
         ]]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
