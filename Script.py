@@ -203,7 +203,7 @@ IMDb Data:
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 
 ☀️ Languages : <code>{languages}</code>
 
 Requested by : {message.from_user.mention}</b>"""
