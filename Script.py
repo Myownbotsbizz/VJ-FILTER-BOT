@@ -17,6 +17,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ 
 ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ 
+ꜰɪʟᴇ ʀᴇɴᴀᴍᴇʀ
 ᴛᴇʟᴇɢʀᴀᴘʜ</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
@@ -693,7 +694,9 @@ Example:- /set_caption 📕 File Name: {filename}
 
     STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
 
-/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
+/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ
+
+⚠️ᴄᴜʀʀᴇɴᴛʟʏ ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇ ɪꜱ ɴᴏᴛᴇ ᴡᴏʀᴋɪɴɢ</b>"""
 
 
 # Don't Remove Credit @VJ_Botz
