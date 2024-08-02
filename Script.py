@@ -198,7 +198,6 @@ Nᴀᴍᴇ - {}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
-
 IMDb Data:
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
