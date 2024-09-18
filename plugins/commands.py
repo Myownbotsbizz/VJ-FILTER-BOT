@@ -282,8 +282,6 @@ async def start(client, message):
                     button = [[
                         InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', url="https://t.me/moviesbizz_yt"),
                         InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')
                     ]]
                 else:
                     button = [[
