@@ -22,7 +22,7 @@ join_db = JoinReqs
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    await message.react(emoji="🧑🏻‍🎄", big=True)
+    await message.react(emoji="🔥", big=True)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton('❣️ Uꜱᴇ Gʀᴏᴜᴘ Tᴏ Gᴇᴛ Mᴏᴠɪᴇꜱ ❣️', url='https://t.me/MoviesBizzChat')
