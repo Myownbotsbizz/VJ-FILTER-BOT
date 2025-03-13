@@ -71,7 +71,7 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesbizzchat')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviesbizzchat1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviesbizzmalayalam_hd')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviesbizzbotz') # Support Chat Link Without https:// or @
@@ -117,7 +117,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", """<b><code>{file_name}</code> \n\n🌟༺ ──•◈•─ ─•◈•──༻🌟
 ➧ പുതിയ സിനിമകൾ വേണോ? എന്നാൽ പെട്ടെന്ന് ഗ്രൂപ്പിൽ ജോയിൻ ആയിക്കോ
 
-🔊 Group: @MoviEsBizzCHAT
+🔊 Group: @MoviEsBizzCHAT1
  🔊 cнannel: @MoviEsBizzMalaYalaM_HD
 
 🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️</b>""")
