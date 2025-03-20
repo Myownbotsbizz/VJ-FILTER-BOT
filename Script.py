@@ -5,7 +5,7 @@
 
 class script(object):
     START_TXT = """<b>𝙷𝙴𝙻L𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>.ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ ᴍᴀᴅᴇ ꜰᴏʀ @MoviEsBizzChaT 💫 ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ꜱᴇʀɪᴇꜱ ꜰʀᴏᴍ ᴏᴜʀ ɢʀᴏᴜᴘ 🫠</b>"""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>.ɪ ᴀᴍ ᴀɴ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ ᴍᴀᴅᴇ ꜰᴏʀ @MoviEsBizzChaT1 💫 ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ꜱᴇʀɪᴇꜱ ꜰʀᴏᴍ ᴏᴜʀ ɢʀᴏᴜᴘ 🫠</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
