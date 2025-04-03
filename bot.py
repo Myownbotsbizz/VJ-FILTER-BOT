@@ -11,17 +11,9 @@ from pathlib import Path
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
-logging.getLogger("imdbpy").setLevel(logging.ERROR)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-)
-logging.getLogger("aiohttp").setLevel(logging.ERROR)
-logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
+logging.getLogger("cinemagoer").setLevel(logging.ERROR)
 
-from pyrogram import Client, idle 
-from pyromod import listen
-from database.ia_filterdb import Media
+from pyrogram import Client, idle
 from database.users_chats_db import db
 from info import *
 from utils import temp
@@ -63,19 +55,31 @@ async def start():
     b_users, b_chats = await db.get_banned()
     temp.BANNED_USERS = b_users
     temp.BANNED_CHATS = b_chats
-    await Media.ensure_indexes()
     me = await TechVJBot.get_me()
     temp.BOT = TechVJBot
     temp.ME = me.id
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
-    logging.info(LOG_STR)
     logging.info(script.LOGO)
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
-    await TechVJBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+    try:
+        await TechVJBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
+    except:
+        print("Make Your Bot Admin In Log Channel With Full Rights")
+    for ch in CHANNELS:
+        try:
+            k = await TechVJBot.send_message(chat_id=ch, text="**Bot Restarted**")
+            await k.delete()
+        except:
+            print("Make Your Bot Admin In File Channels With Full Rights")
+    try:
+        k = await TechVJBot.send_message(chat_id=AUTH_CHANNEL, text="**Bot Restarted**")
+        await k.delete()
+    except:
+        print("Make Your Bot Admin In Force Subscribe Channel With Full Rights")
     if CLONE_MODE == True:
         print("Restarting All Clone Bots.......")
         await restart_bots()
